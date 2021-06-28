@@ -1,0 +1,2 @@
+lower case vars are only visible in package
+uppercase vars are visible are globally scoped
