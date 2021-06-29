@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 var i float32 = 42
@@ -11,11 +10,7 @@ var (
 )
 
 func main() {
-	i := 45
-	fmt.Printf("%v, %T\n", i, i)
-	k := strconv.Itoa(i)
-	fmt.Printf("%v, %T\n", k, k)
-	var n bool = true
-	fmt.Printf("%v, %T\n", n, n)
-
+	var s string = "this is a string"
+	var z []byte = []byte(s)
+	fmt.Println(z)
 }
